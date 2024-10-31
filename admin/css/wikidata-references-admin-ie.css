@@ -1,0 +1,146 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wkrf-setup {
+	clear:both;
+	margin-top: 2em;
+	padding-bottom: 1em;
+	height: auto;
+	overflow: auto;
+}
+
+.wkrf-setup h1{
+	cursor: pointer;
+}
+
+.wkrf-setup .title{
+	margin-left: 1em;
+}
+
+.wkrf-setup p{
+	padding-right: 1em;
+	margin-left: 2em;
+	font-size: 100%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.box{
+	border: 1px solid;
+	border-color: #DCDCDC;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.margin-top {
+	margin-top: 3em;
+}
+
+
+
+/* MODAL BOX TO SELECT WIKI ITEM */
+.wrap .modal{
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 5%; /* Location of the box */
+    padding-bottom: 10%;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.wrap  .modal .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wkrf-modal-window-content{
+	overflow: scroll;
+}
+
+
+
+
+.wkrf-modal-list-header {
+	height: content;
+	padding-top: 3em;
+	padding-left: 5em;
+	padding-bottom: 3em;
+	display:block;
+	border-bottom: 1px solid;
+	border-color: #DCDCDC;
+	
+}
+
+.wkrf-modal-list-item{
+	clear: both;
+	height: content;
+	padding-top: 1em;
+	padding-left: 5em;
+	padding-bottom: 3em;
+	display:block;
+	border-bottom: 1px solid;
+	border-color: #DCDCDC;
+}
+
+.wkrf-modal-list-item:hover {
+	cursor:pointer;
+	background-color: #EFEFEF;
+}
+
+
+.wkrf_modal_window_message {
+	text-align: center;
+	padding: 10em;
+	
+}
+
+#wkrf_close {
+	float: right;
+	margin-left: 15em;
+}
+
+
+/* spinner loader */
+ .loader {
+	border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+
+
